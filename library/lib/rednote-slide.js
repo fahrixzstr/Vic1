@@ -1,0 +1,119 @@
+// 💫 Name Fitur : scraper readnote
+// 📌 Create By FahriXz
+// 📣 Chanel WhatsApp: https://whatsapp.com/channel/0029Vb8C8TI545uvU3EaJ72g
+// plugin creation date : June 16, 2026
+// Type LIB
+
+import fetch from 'node-fetch'
+
+const UA = 'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120'
+
+async function fetchHTML(url) {
+  try {
+    let res = await fetch(url, {
+      headers: {
+        'user-agent': UA,
+        'accept-language': 'en-US,en;q=0.9'
+      }
+    })
+    return await res.text()
+  } catch {
+    return null
+  }
+}
+
+// 🔍 extract JSON embedded (RedNote sering simpan data di script)
+function extractJSON(html) {
+  try {
+    let jsonMatch =
+      html.match(/window\.__INITIAL_STATE__\s*=\s*(\{.*?\})<\/script>/s) ||
+      html.match(/__INITIAL_STATE__\s*=\s*(\{.*?\});/s)
+
+    if (!jsonMatch) return null
+
+    return JSON.parse(jsonMatch[1])
+  } catch {
+    return null
+  }
+}
+
+// 🖼 extract slide images dari JSON
+function extractFromJSON(json) {
+  let images = []
+
+  try {
+    let notes = json?.note?.noteDetailMap
+    if (!notes) return []
+
+    for (let key in notes) {
+      let item = notes[key]?.note
+
+      let picList = item?.imageList || item?.images || []
+
+      picList.forEach(img => {
+        let url =
+          img?.url ||
+          img?.urlDefault ||
+          img?.original ||
+          null
+
+        if (url) images.push(url)
+      })
+    }
+  } catch {}
+
+  return images
+}
+
+// 🧹 fallback HTML image extractor
+function extractFromHTML(html) {
+  let images = new Set()
+
+  let img = html.match(/https?:\/\/[^\s"'<>]+\.(jpg|jpeg|png|webp)/gi)
+  if (img) img.forEach(i => images.add(i))
+
+  let og = [...html.matchAll(/property="og:image"\s*content="(.*?)"/gi)]
+  og.forEach(i => images.add(i[1]))
+
+  return [...images]
+}
+
+function extractTitle(html) {
+  return (
+    html.match(/property="og:title"\s*content="(.*?)"/i)?.[1] ||
+    html.match(/<title>(.*?)<\/title>/i)?.[1] ||
+    'RedNote Post'
+  )
+}
+
+export async function rednoteSlide(url) {
+  if (!url.includes('xiaohongshu') && !url.includes('rednote')) {
+    throw new Error('URL bukan RedNote')
+  }
+
+  let html = await fetchHTML(url)
+  if (!html) throw new Error('Gagal fetch halaman')
+
+  let json = extractJSON(html)
+  let images = []
+
+  if (json) {
+    images = extractFromJSON(json)
+  }
+
+  // fallback kalau JSON gagal
+  if (!images.length) {
+    images = extractFromHTML(html)
+  }
+
+  let title = extractTitle(html)
+
+  return {
+    status: true,
+    source: 'RedNote Slide Ultra Safe',
+    url,
+    title,
+    total: images.length,
+    images: [...new Set(images)]
+  }
+}

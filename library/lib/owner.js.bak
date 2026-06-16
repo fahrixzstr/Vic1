@@ -1,0 +1,28 @@
+
+
+import fs from "fs"
+import path from "path"
+
+export const ensureDir = (dir) => {
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
+}
+
+export const writeFileSafe = (filePath, content) => {
+  ensureDir(path.dirname(filePath))
+  fs.writeFileSync(filePath, content)
+  return true
+}
+
+export const readFileSafe = (filePath) => {
+  if (!fs.existsSync(filePath)) return null
+  return fs.readFileSync(filePath, "utf-8")
+}
+
+export const deleteFileSafe = (filePath) => {
+  if (fs.existsSync(filePath)) fs.unlinkSync(filePath)
+}
+
+export const listDir = (dir) => {
+  if (!fs.existsSync(dir)) return []
+  return fs.readdirSync(dir)
+}

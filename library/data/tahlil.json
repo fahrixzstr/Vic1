@@ -1,0 +1,305 @@
+{
+  "status": true,
+  "result": [
+    {
+      "id": 1,
+      "title": "Pengantar Al-Fatihah",
+      "arabic": "اِلَى حَضْرَةِ النَّبِيِّ صَلَّى اللهُ عَلَيهِ وَسَلَّمَ وَاَلِهِ وصَحْبِهِ شَيْءٌ لِلهِ لَهُمُ الْفَاتِحَةُ",
+      "translation": "Dengan nama Allah yang maha pengasih lagi maha penyayang. Untuk yang terhormat Nabi Muhammad SAW, segenap keluarga, dan para sahabatnya. Bacaan Al-Fatihah ini kami tujukan kepada Allah dan pahalanya untuk mereka semua. Al-Fatihah…"
+    },
+    {
+      "id": 2,
+      "title": "Al-Fatihah",
+      "arabic": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ . اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ . اَلرَّحْمَنِ الرَّحِيْمِ. مَالِكِ يَوْمِ الدِّيْنِ . اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ . اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ . صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ . اَمِينْ",
+      "translation": "Dengan menyebut nama Allah yang maha pengasih lagi maha penyayang. Segala puji bagi Allah, Tuhan semesta alam. Maha Pengasih lagi Maha Penyayang. Yang menguasai hari pembalasan. Hanya kepada-Mu kami menyembah dan hanya kepada-Mu kami memohon pertolongan. Tunjukilah kami jalan yang lurus, yaitu jalan orang-orang yang Engkau beri nikmat, bukan jalan mereka yang dimurkai dan bukan pula jalan mereka yang sesat. Aamiin."
+    },
+    {
+      "id": 3,
+      "title": "Surat Al-Ikhlas (3x)",
+      "arabic": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ . قُلْ هُوَ اللهُ اَحَدٌ . اَللهُ الصَّمَدُ . لَمْ يَلِدْ وَلَمْ يُوْلَدْ . وَلَمْ يَكُنْ لَهُ كُفُوًا اَحَدٌ",
+      "translation": "Dengan nama Allah yang Maha Pengasih lagi Maha Penyayang. Katakanlah: Dialah Allah Yang Maha Esa. Allah tempat bergantung segala sesuatu. Dia tidak beranak dan tidak diperanakkan. Dan tidak ada sesuatu yang setara dengan-Nya. (dibaca 3x)"
+    },
+    {
+      "id": 4,
+      "title": "Tahlil dan Takbir",
+      "arabic": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ",
+      "translation": "Tidak ada Tuhan selain Allah, dan Allah Maha Besar."
+    },
+    {
+      "id": 5,
+      "title": "Surat Al-Falaq",
+      "arabic": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ . قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِ . مِنْ شَرِّ مَا خَلَقَ . وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَ . وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ . وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
+      "translation": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Katakanlah: Aku berlindung kepada Tuhan yang menguasai subuh, dari kejahatan makhluk-Nya, dari kegelapan malam, dari kejahatan tukang sihir, dan dari kejahatan orang yang dengki."
+    },
+    {
+      "id": 6,
+      "title": "Tahlil dan Takbir",
+      "arabic": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ",
+      "translation": "Tidak ada Tuhan selain Allah, dan Allah Maha Besar."
+    },
+    {
+      "id": 7,
+      "title": "Surat An-Nas",
+      "arabic": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ . قُلْ اَعُوْذُ بِرَبِّ النَّاسِ . مَلِكِ النَّاسِ . اِلَهِ النَّاسِ . مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ . الَّذِي يُوَسْوِسُ فِي صُدُوْرِ النَّاسِ . مِنَ الْجِنَّةِ وَالنَّاسِ",
+      "translation": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Katakanlah: Aku berlindung kepada Tuhan manusia, Raja manusia, Sesembahan manusia, dari kejahatan bisikan setan yang bersembunyi, yang membisikkan ke dalam dada manusia, dari golongan jin dan manusia."
+    },
+    {
+      "id": 8,
+      "title": "Tahlil dan Takbir",
+      "arabic": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ",
+      "translation": "Tidak ada Tuhan selain Allah, dan Allah Maha Besar."
+    },
+    {
+      "id": 9,
+      "title": "Al-Fatihah",
+      "arabic": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ . اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ . اَلرَّحْمَنِ الرَّحِيْمِ . مَالِكِ يَوْمِ الدِّيْنِ . اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ . اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ . صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ . آمِيْن",
+      "translation": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Segala puji bagi Allah Tuhan semesta alam. Maha Pengasih lagi Maha Penyayang. Pemilik hari pembalasan. Hanya kepada-Mu kami menyembah dan hanya kepada-Mu kami memohon pertolongan. Tunjukkanlah kami jalan yang lurus, yaitu jalan orang-orang yang Engkau beri nikmat, bukan jalan mereka yang dimurkai dan bukan pula jalan mereka yang sesat. Aamiin."
+    },
+    {
+      "id": 10,
+      "title": "Awal Surat Al-Baqarah",
+      "arabic": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ . الم . ذَلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ . الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ . وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ . أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+      "translation": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Alif Lam Mim. Kitab (Al-Qur'an) ini tidak ada keraguan padanya; petunjuk bagi orang yang bertakwa. (Yaitu) mereka yang beriman kepada yang ghaib, mendirikan shalat, dan menafkahkan sebagian rezeki yang Kami berikan kepada mereka. Dan mereka yang beriman kepada apa yang diturunkan kepadamu dan sebelum kamu, serta yakin kepada hari akhir. Mereka itulah yang mendapat petunjuk dan mereka itulah orang-orang yang beruntung."
+    },
+    {
+  "id": 11,
+  "title": "Ayat Kursi (Al-Baqarah 255)",
+  "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+  "translation": "Allah, tidak ada Tuhan selain Dia, Yang Maha Hidup lagi terus-menerus mengurus makhluk-Nya. Tidak mengantuk dan tidak tidur. Milik-Nya apa yang ada di langit dan di bumi."
+},
+{
+  "id": 12,
+  "title": "Al-Baqarah 284-286",
+  "arabic": "لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ...",
+  "translation": "Segala yang ada di langit dan bumi milik Allah..."
+},
+{
+  "id": 13,
+  "title": "Doa Ampunan",
+  "arabic": "رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا...",
+  "translation": "Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau salah..."
+},
+{
+  "id": 14,
+  "title": "Doa Hud 73 (3x)",
+  "arabic": "يَا أَرْحَمَ الرَّاحِمِينَ",
+  "translation": "Wahai Tuhan Yang Maha Pengasih (dibaca 3 kali)"
+},
+{
+  "id": 15,
+  "title": "Salam Ahlul Bait",
+  "arabic": "رَحْمَتُ اللَّهِ وَبَرَكَاتُهُ عَلَيْكُمْ أَهْلَ الْبَيْتِ",
+  "translation": "Rahmat dan berkah Allah atas kalian, wahai أهل البيت"
+},
+{
+  "id": 16,
+  "title": "Surat Al-Ahzab 33",
+  "arabic": "إِنَّمَا يُرِيدُ اللَّهُ لِيُذْهِبَ عَنكُمُ الرِّجْسَ...",
+  "translation": "Sesungguhnya Allah hendak menghilangkan dosa dari kalian..."
+},
+{
+  "id": 17,
+  "title": "Shalawat Nabi",
+  "arabic": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ",
+  "translation": "Ya Allah, limpahkan shalawat kepada Nabi Muhammad SAW"
+},
+{
+  "id": 18,
+  "title": "Shalawat Lengkap",
+  "arabic": "اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ",
+  "translation": "Ya Allah, limpahkan shalawat dan salam kepada Nabi Muhammad dan keluarganya"
+},
+{
+  "id": 19,
+  "title": "Shalawat Sahabat",
+  "arabic": "وَصَحْبِهِ أَجْمَعِينَ",
+  "translation": "Dan kepada seluruh sahabatnya"
+},
+{
+  "id": 20,
+  "title": "Hasbunallah",
+  "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+  "translation": "Cukuplah Allah menjadi penolong kami"
+},
+{
+  "id": 21,
+  "title": "Hauqalah",
+  "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+  "translation": "Tidak ada daya dan kekuatan kecuali dengan Allah"
+},
+{
+  "id": 22,
+  "title": "Istighfar",
+  "arabic": "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ",
+  "translation": "Aku memohon ampun kepada Allah Yang Maha Agung"
+},
+{
+  "id": 23,
+  "title": "Kalimat Tauhid",
+  "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ",
+  "translation": "Tidak ada Tuhan selain Allah"
+},
+{
+  "id": 24,
+  "title": "Tauhid & Kehidupan",
+  "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ الْحَيُّ الْقَيُّومُ",
+  "translation": "Tiada Tuhan selain Allah Yang Maha Hidup lagi Maha Berdiri sendiri"
+},
+{
+  "id": 25,
+  "title": "Tahlil Panjang",
+  "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ",
+  "translation": "Tiada Tuhan selain Allah, Muhammad adalah utusan Allah"
+},
+{
+  "id": 26,
+  "title": "Zikir Tahlil",
+  "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ",
+  "translation": "Tiada Tuhan selain Allah"
+},
+{
+  "id": 27,
+  "title": "Syahadat",
+  "arabic": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+  "translation": "Aku bersaksi tiada Tuhan selain Allah dan Muhammad utusan Allah"
+},
+{
+  "id": 28,
+  "title": "Doa Tahlil",
+  "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ...",
+  "translation": "Segala puji bagi Allah Tuhan semesta alam..."
+},
+{
+  "id": 29,
+  "title": "Shalawat Nariyah",
+  "arabic": "اللَّهُمَّ صَلِّ صَلَاةً كَامِلَةً...",
+  "translation": "Ya Allah, limpahkan shalawat yang sempurna kepada Nabi Muhammad"
+},
+{
+  "id": 30,
+  "title": "Shalawat Penutup",
+  "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ",
+  "translation": "Ya Allah, limpahkan shalawat kepada Muhammad dan keluarganya"
+},
+{
+  "id": 31,
+  "title": "Doa Keselamatan",
+  "arabic": "اللَّهُمَّ احْفَظْنَا مِنَ الشَّرِّ",
+  "translation": "Ya Allah, lindungilah kami dari keburukan"
+},
+{
+  "id": 32,
+  "title": "Doa Cahaya Hati",
+  "arabic": "اللَّهُمَّ نَوِّرْ قُلُوبَنَا",
+  "translation": "Ya Allah, terangilah hati kami"
+},
+{
+  "id": 33,
+  "title": "Doa Rahmat",
+  "arabic": "اللَّهُمَّ ارْحَمْنَا",
+  "translation": "Ya Allah, rahmatilah kami"
+},
+{
+  "id": 34,
+  "title": "Penutup Tahlil",
+  "arabic": "وَإِلَى أَرْوَاحِ جَمِيعِ الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ",
+  "translation": "Dan untuk seluruh arwah kaum mukminin dan mukminat"
+},
+{
+  "id": 35,
+  "title": "Doa untuk Arwah Muslimin",
+  "arabic": "اللَّهُمَّ اغْفِرْ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ",
+  "translation": "Ya Allah, ampunilah seluruh المؤمنين dan المؤمنات"
+},
+{
+  "id": 36,
+  "title": "Doa Keluasan Kubur",
+  "arabic": "اللَّهُمَّ وَسِّعْ عَلَيْهِمْ فِي قُبُورِهِمْ",
+  "translation": "Ya Allah, luaskanlah kubur mereka"
+},
+{
+  "id": 37,
+  "title": "Doa Cahaya Kubur",
+  "arabic": "اللَّهُمَّ نَوِّرْ قُبُورَهُمْ",
+  "translation": "Ya Allah, terangilah kubur mereka"
+},
+{
+  "id": 38,
+  "title": "Doa Pengampunan Dosa",
+  "arabic": "اللَّهُمَّ اغْفِرْ ذُنُوبَهُمْ وَارْحَمْهُمْ",
+  "translation": "Ya Allah, ampunilah dosa-dosa mereka dan rahmatilah mereka"
+},
+{
+  "id": 39,
+  "title": "Doa Penerimaan Amal",
+  "arabic": "اللَّهُمَّ تَقَبَّلْ أَعْمَالَهُمْ",
+  "translation": "Ya Allah, terimalah amal perbuatan mereka"
+},
+{
+  "id": 40,
+  "title": "Doa Penghapus Siksa",
+  "arabic": "اللَّهُمَّ أَجِرْهُمْ مِنْ عَذَابِ الْقَبْرِ",
+  "translation": "Ya Allah, lindungi mereka dari azab kubur"
+},
+{
+  "id": 41,
+  "title": "Doa Rahmat Luas",
+  "arabic": "اللَّهُمَّ أَدْخِلْهُمْ فِي رَحْمَتِكَ",
+  "translation": "Ya Allah, masukkan mereka ke dalam rahmat-Mu"
+},
+{
+  "id": 42,
+  "title": "Doa Surga",
+  "arabic": "اللَّهُمَّ اجْعَلْ مَثْوَاهُمُ الْجَنَّةَ",
+  "translation": "Ya Allah, jadikan tempat tinggal mereka surga"
+},
+{
+  "id": 43,
+  "title": "Doa Keselamatan Akhirat",
+  "arabic": "اللَّهُمَّ آمِنْهُمْ يَوْمَ الْقِيَامَةِ",
+  "translation": "Ya Allah, amankan mereka pada hari kiamat"
+},
+{
+  "id": 44,
+  "title": "Doa Keringanan Hisab",
+  "arabic": "اللَّهُمَّ حَاسِبْهُمْ حِسَابًا يَسِيرًا",
+  "translation": "Ya Allah, hisablah mereka dengan hisab yang ringan"
+},
+{
+  "id": 45,
+  "title": "Doa Penghapus Dosa Besar",
+  "arabic": "اللَّهُمَّ كَفِّرْ عَنْهُمْ سَيِّئَاتِهِمْ",
+  "translation": "Ya Allah, hapuskanlah dosa-dosa buruk mereka"
+},
+{
+  "id": 46,
+  "title": "Doa Ketenangan Ruh",
+  "arabic": "اللَّهُمَّ أَنْزِلِ السَّكِينَةَ عَلَيْهِمْ",
+  "translation": "Ya Allah, turunkan ketenangan atas mereka"
+},
+{
+  "id": 47,
+  "title": "Doa Kebaikan Dunia Akhirat",
+  "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً",
+  "translation": "Ya Tuhan kami, berikan kami kebaikan di dunia dan akhirat"
+},
+{
+  "id": 48,
+  "title": "Doa Penutup Dzikir",
+  "arabic": "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ",
+  "translation": "Maha suci Tuhanmu, Tuhan yang memiliki kemuliaan dari apa yang mereka sifatkan"
+},
+{
+  "id": 49,
+  "title": "Shalawat Penutup Majelis",
+  "arabic": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ أَجْمَعِينَ",
+  "translation": "Ya Allah, limpahkan shalawat kepada Nabi Muhammad, keluarga, dan seluruh sahabatnya"
+},
+{
+  "id": 50,
+  "title": "Penutup Tahlil Lengkap",
+  "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+  "translation": "Segala puji bagi Allah Tuhan semesta alam"
+},
+}
+]

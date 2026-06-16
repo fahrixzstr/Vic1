@@ -1,0 +1,99 @@
+// 💫 Name File : Lib Readnote 
+// 📌 Create By FahriXz
+// 📣 Chanel WhatsApp: https://whatsapp.com/channel/0029Vb8C8TI545uvU3EaJ72g
+// plugin creation date : June 16, 2026
+// Type Plugin 
+
+
+import fetch from 'node-fetch'
+
+const UA = 'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120'
+
+async function fetchHTML(url) {
+  try {
+    let res = await fetch(url, {
+      headers: {
+        'user-agent': UA,
+        'accept-language': 'en-US,en;q=0.9'
+      }
+    })
+    return await res.text()
+  } catch {
+    return null
+  }
+}
+
+function extractMeta(html) {
+  const get = (r) => html.match(r)?.[1] || null
+
+  return {
+    title:
+      get(/property="og:title"\s*content="(.*?)"/i) ||
+      get(/<title>(.*?)<\/title>/i),
+
+    desc:
+      get(/property="og:description"\s*content="(.*?)"/i),
+
+    image:
+      get(/property="og:image"\s*content="(.*?)"/i),
+
+    video:
+      get(/property="og:video"\s*content="(.*?)"/i)
+  }
+}
+
+function extractMedia(html) {
+  let images = new Set()
+  let videos = new Set()
+
+  let img = html.match(/https?:\/\/[^\s"'<>]+\.(jpg|jpeg|png|webp)/gi)
+  if (img) img.forEach(i => images.add(i))
+
+  let vid = html.match(/https?:\/\/[^\s"'<>]+\.(mp4|m3u8)/gi)
+  if (vid) vid.forEach(v => videos.add(v))
+
+  return {
+    images: [...images],
+    videos: [...videos]
+  }
+}
+
+function cleanContent(html) {
+  let content =
+    html.match(/<article[\s\S]*?>([\s\S]*?)<\/article>/i)?.[1] ||
+    html.match(/<div[^>]*class=".*?(content|note|post).*?"[^>]*>([\s\S]*?)<\/div>/i)?.[1] ||
+    ''
+
+  return content
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+}
+
+export async function rednoteDL(url) {
+  if (!url.includes('xiaohongshu') && !url.includes('rednote')) {
+    throw new Error('URL bukan RedNote')
+  }
+
+  let html = await fetchHTML(url)
+  if (!html) throw new Error('Gagal fetch halaman')
+
+  let meta = extractMeta(html)
+  let media = extractMedia(html)
+  let content = cleanContent(html)
+
+  return {
+    status: true,
+    source: 'RedNote Safe API',
+    url,
+    title: meta.title,
+    description: meta.desc,
+    image: meta.image,
+    video: meta.video,
+    images: media.images,
+    videos: media.videos,
+    content: content.slice(0, 4000) || null
+  }
+}

@@ -1,0 +1,276 @@
+[
+  {
+    "value": "channel/antv",
+    "channel": "antv",
+    "isPay": false,
+    "now": "Film India Drama",
+    "next": "Horor Asia Midnight"
+  },
+  {
+    "value": "channel/gtv",
+    "channel": "gtv",
+    "isPay": false,
+    "now": "Big Movies Action",
+    "next": "Cartoon Night"
+  },
+  {
+    "value": "channel/indosiar",
+    "channel": "indosiar",
+    "isPay": false,
+    "now": "Mega Drama Asia",
+    "next": "Dangdut Show"
+  },
+  {
+    "value": "channel/inewstv",
+    "channel": "inews tv",
+    "isPay": false,
+    "now": "Breaking News",
+    "next": "Sports News"
+  },
+  {
+    "value": "channel/kompastv",
+    "channel": "kompas tv",
+    "isPay": false,
+    "now": "News Prime",
+    "next": "Investigasi"
+  },
+  {
+    "value": "channel/metrotv",
+    "channel": "metro tv",
+    "isPay": false,
+    "now": "World News",
+    "next": "Talkshow Politik"
+  },
+  {
+    "value": "channel/mnctv",
+    "channel": "mnctv",
+    "isPay": false,
+    "now": "Sinetron Keluarga",
+    "next": "Comedy Show"
+  },
+  {
+    "value": "channel/nettv",
+    "channel": "net tv",
+    "isPay": false,
+    "now": "Entertainment Mix",
+    "next": "Music Night"
+  },
+  {
+    "value": "channel/ochannel",
+    "channel": "ochannel",
+    "isPay": false,
+    "now": "Lifestyle Show",
+    "next": "Talkshow"
+  },
+  {
+    "value": "channel/rcti",
+    "channel": "rcti",
+    "isPay": false,
+    "now": "Sinetron Prime",
+    "next": "Infotainment"
+  },
+  {
+    "value": "channel/rtv",
+    "channel": "rtv",
+    "isPay": false,
+    "now": "Kids Cartoon",
+    "next": "Family Show"
+  },
+  {
+    "value": "channel/sctv",
+    "channel": "sctv",
+    "isPay": false,
+    "now": "FTV Romance",
+    "next": "Drama Series"
+  },
+  {
+    "value": "channel/trans7",
+    "channel": "trans7",
+    "isPay": false,
+    "now": "On The Spot",
+    "next": "Animal World"
+  },
+  {
+    "value": "channel/transtv",
+    "channel": "transtv",
+    "isPay": false,
+    "now": "Bioskop TransTV",
+    "next": "Horror Movie"
+  },
+  {
+    "value": "channel/tvone",
+    "channel": "tvone",
+    "isPay": false,
+    "now": "News Live",
+    "next": "Debat Politik"
+  },
+  {
+    "value": "channel/tvri",
+    "channel": "tvri",
+    "isPay": false,
+    "now": "Budaya Indonesia",
+    "next": "Dokumenter"
+  },
+
+  {
+    "value": "0/al-jazeera-english",
+    "channel": "al jazeera english",
+    "isPay": true,
+    "now": "World News Live",
+    "next": "Global Politics"
+  },
+  {
+    "value": "1/al-quran-al-kareem",
+    "channel": "al quran al kareem",
+    "isPay": true,
+    "now": "Tilawah Quran",
+    "next": "Tafsir"
+  },
+  {
+    "value": "2/animal-planet",
+    "channel": "animal planet",
+    "isPay": true,
+    "now": "Wildlife Africa",
+    "next": "Ocean Life"
+  },
+  {
+    "value": "3/animax",
+    "channel": "animax",
+    "isPay": true,
+    "now": "Anime Action",
+    "next": "Romance Anime"
+  },
+  {
+    "value": "4/arirang",
+    "channel": "arirang",
+    "isPay": true,
+    "now": "Korea Culture",
+    "next": "K-Drama"
+  },
+  {
+    "value": "5/asian-food-network",
+    "channel": "asian food network",
+    "isPay": true,
+    "now": "Cooking Show",
+    "next": "Chef Battle"
+  },
+  {
+    "value": "7/axn",
+    "channel": "axn",
+    "isPay": true,
+    "now": "Action Series",
+    "next": "Crime Show"
+  },
+  {
+    "value": "10/bbc-earth",
+    "channel": "bbc earth",
+    "isPay": true,
+    "now": "Planet Earth",
+    "next": "Nature Survival"
+  },
+  {
+    "value": "12/bbc-world-news",
+    "channel": "bbc world news",
+    "isPay": true,
+    "now": "Global News",
+    "next": "Economy Update"
+  },
+  {
+    "value": "13/bein-sports-1",
+    "channel": "bein sports 1",
+    "isPay": true,
+    "now": "Live Football",
+    "next": "Match Highlight"
+  },
+  {
+    "value": "19/bloomberg",
+    "channel": "bloomberg",
+    "isPay": true,
+    "now": "Market Live",
+    "next": "Stock Analysis"
+  },
+  {
+    "value": "21/cartoon-network",
+    "channel": "cartoon network",
+    "isPay": true,
+    "now": "Cartoon Block",
+    "next": "Adventure Time"
+  },
+  {
+    "value": "29/cinemax",
+    "channel": "cinemax",
+    "isPay": true,
+    "now": "Hollywood Movie",
+    "next": "Thriller Night"
+  },
+  {
+    "value": "32/cnn-international",
+    "channel": "cnn international",
+    "isPay": true,
+    "now": "Breaking News",
+    "next": "World Politics"
+  },
+  {
+    "value": "34/discovery-channel",
+    "channel": "discovery channel",
+    "isPay": true,
+    "now": "Science Doc",
+    "next": "Engineering"
+  },
+  {
+    "value": "44/hbo",
+    "channel": "hbo",
+    "isPay": true,
+    "now": "Blockbuster Movie",
+    "next": "HBO Series"
+  },
+  {
+    "value": "54/history",
+    "channel": "history",
+    "isPay": true,
+    "now": "Ancient Civilization",
+    "next": "World War Doc"
+  },
+  {
+    "value": "82/national-geographic-channel",
+    "channel": "national geographic channel",
+    "isPay": true,
+    "now": "Wild Nature",
+    "next": "Planet Earth"
+  },
+  {
+    "value": "88/nickelodeon",
+    "channel": "nickelodeon",
+    "isPay": true,
+    "now": "Kids Cartoon",
+    "next": "SpongeBob"
+  },
+  {
+    "value": "94/soccer-channel",
+    "channel": "soccer channel",
+    "isPay": true,
+    "now": "Football Analysis",
+    "next": "Match Replay"
+  },
+  {
+    "value": "103/tvn",
+    "channel": "tvn",
+    "isPay": true,
+    "now": "K-Drama",
+    "next": "Romance Series"
+  },
+  {
+    "value": "109/warner-tv",
+    "channel": "warner tv",
+    "isPay": true,
+    "now": "Hollywood Movie",
+    "next": "Action Film"
+  },
+  {
+    "value": "111/zee-bioskop",
+    "channel": "zee bioskop",
+    "isPay": true,
+    "now": "Bollywood Movie",
+    "next": "Drama India"
+  }
+]
